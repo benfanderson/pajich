@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  header{
+    position: relative;
+      padding-bottom: 2%;
+  }
+  
+  header img {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo{
+    position: absolute;
+    top: 1%;
+    right: 3%;
+    width: 40%;
+  }
+
+  #desktop{
+    display: none;
+  }
+
+  .headline-content{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 20%;
+  }
+  
+  header h1{
+    font-size: 2.5em;
+    font-family: Helvetica, Arial, serif;
+  }
+  
+  .byline{
+  font-style: italic;
+  }
+
+  p{
+    margin: 0 .75% 2% .75%;
+  }
+
+.flex-container{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.pic {
+  height: auto;
+  width: 100%;
+}
+
+
+
+.quad-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.quad-pic{
+  height: 20%;
+  width: auto;
+}
+
+
+
+
+blockquote {
+  font-size: 1.5em;
+  margin: 0 15% 2% 15%;
+  font-style: bold;
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("images/A_220616genorelia005.JPG");
+
+  /* Set a specific height */
+  height: 50%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 { 
+/* The image used */
+background-image: url("images/A_A_230616genvigil004.JPG");
+
+/* Set a specific height */
+height: 50%; 
+
+/* Create the parallax scrolling effect */
+background-attachment: scroll;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax3 { 
+/* The image used */
+background-image: url("images/031117genpajich144.JPG");
+
+/* Set a specific height */
+height: 50%; 
+
+/* Create the parallax scrolling effect */
+background-attachment: scroll;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+ 
+  
+/*View for tablets*/
+@media (min-width:479px){
+
+  p{
+    margin: 0 10% 2% 10%;
+  }
+
+  .flex-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .pic {
+    height: 30%;
+    width: auto;
+  }
+
+  .bi-container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    
+  }
+
+  #letter{
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+  }
+
+  #TL{
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+  }
+
+  #BL{
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+  }
+  
+  #BR{
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+  }
+
+}
+
+
+
+  /*View for desktop*/
+@media (min-width:800px){
+
+  #tablet{
+    display: none;
+  }
+
+  #desktop{
+    display: block;
+  }
+
+  .pic {
+    height: 65%;
+    width: auto;
+  }
+
+  .quad-pic{
+    height: 50%;
+    width: auto;
+  }
+
+ 
+  
+ 
+
+  .parallax { 
+    /* The image used */
+    background-image: url("images/A_220616genorelia005.JPG");
+
+    /* Set a specific height */
+    height: 110%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 { 
+  /* The image used */
+  background-image: url("images/A_A_230616genvigil004.JPG");
+
+  /* Set a specific height */
+  height: 110%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 { 
+  /* The image used */
+  background-image: url("images/031117genpajich144.JPG");
+
+  /* Set a specific height */
+  height: 110%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+}
