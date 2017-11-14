@@ -48,85 +48,106 @@
     margin: 0 .75% 2% .75%;
   }
 
-.flex-container{
+  .quad-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+  }
+  
+  .quad-pic{
+    height: 20%;
+    width: auto;
+  }
+
+  blockquote {
+    font-size: 1.5em;
+    margin: 0 15% 2% 15%;
+    font-style: bold;
+  }
+
+  .parallax { 
+    /* The image used */
+    background-image: url("images/A_220616genorelia005.JPG");
+  
+    /* Set a specific height */
+    height: 50%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h2{
+    
+  }
+
+.tri-container{
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   align-content: space-around;
 }
 
-.pic {
+.tri-pic {
   height: auto;
   width: 100%;
 }
 
 
-
-.quad-container{
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  justify-content: space-around;
-  margin: auto;
-}
-
-.quad-pic{
-  height: 20%;
-  width: auto;
-}
-
-
-
-
-blockquote {
-  font-size: 1.5em;
-  margin: 0 15% 2% 15%;
-  font-style: bold;
-}
-
-.parallax { 
+.parallax2 { 
   /* The image used */
-  background-image: url("images/A_220616genorelia005.JPG");
-
+  background-image: url("images/A_A_230616genvigil004.JPG");
+  
   /* Set a specific height */
   height: 50%; 
-
+  
   /* Create the parallax scrolling effect */
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  }
+
+  .bi-container{}
+
+  .parallax3 { 
+    /* The image used */
+    background-image: url("images/031117genpajich144.JPG");
+    
+    /* Set a specific height */
+    height: 50%; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+.aaron-container{
+  width: 100%;
 }
 
-.parallax2 { 
-/* The image used */
-background-image: url("images/A_A_230616genvigil004.JPG");
-
-/* Set a specific height */
-height: 50%; 
-
-/* Create the parallax scrolling effect */
-background-attachment: scroll;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+#aaron{
+  width:100%;
+  height: auto;
 }
 
-.parallax3 { 
-/* The image used */
-background-image: url("images/031117genpajich144.JPG");
 
-/* Set a specific height */
-height: 50%; 
+.mum-container{
+  margin-bottom: 2%;
+}
 
-/* Create the parallax scrolling effect */
-background-attachment: scroll;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+#mum{
+  width: 100%;
+  height: auto;
 }
  
-  
 /*View for tablets*/
 @media (min-width:479px){
 
@@ -134,13 +155,38 @@ background-size: cover;
     margin: 0 10% 2% 10%;
   }
 
-  .flex-container{
+  #TL{
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+  }
+
+  /* Rotate pics in quad-container*/
+
+  #BL{
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+  }
+  
+  #BR{
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+    z-index: 2 ;
+  }
+
+  /* -----------------------------------------*/
+
+  h2{}
+
+  .tri-container{
     display: flex;
     width: 100%;
     justify-content: space-around;
   }
 
-  .pic {
+  .tri-pic {
     height: 30%;
     width: auto;
   }
@@ -153,28 +199,23 @@ background-size: cover;
     
   }
 
+  /* Rotate pic in bi-container*/
+
   #letter{
     -ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
   }
 
-  #TL{
-    -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
+  .aaron-container{
+    width: 60%;
+    margin: auto;
   }
 
-  #BL{
-    -ms-transform: rotate(-10deg); /* IE 9 */
-    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
-    transform: rotate(-10deg);
-  }
-  
-  #BR{
-    -ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
+  .mum-container{
+    width:80%;
+   margin: auto;
+   margin-bottom: 2%;
   }
 
 }
@@ -192,19 +233,10 @@ background-size: cover;
     display: block;
   }
 
-  .pic {
-    height: 65%;
-    width: auto;
-  }
-
   .quad-pic{
     height: 50%;
     width: auto;
   }
-
- 
-  
- 
 
   .parallax { 
     /* The image used */
@@ -220,32 +252,43 @@ background-size: cover;
     background-size: cover;
 }
 
-.parallax2 { 
-  /* The image used */
-  background-image: url("images/A_A_230616genvigil004.JPG");
+  .tri-pic {
+    height: 65%;
+    width: auto;
+  }
 
-  /* Set a specific height */
-  height: 110%; 
+  .parallax2 { 
+    /* The image used */
+    background-image: url("images/A_A_230616genvigil004.JPG");
+  
+    /* Set a specific height */
+    height: 110%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  .parallax3 { 
+    /* The image used */
+    background-image: url("images/031117genpajich144.JPG");
+  
+    /* Set a specific height */
+    height: 110%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.parallax3 { 
-  /* The image used */
-  background-image: url("images/031117genpajich144.JPG");
-
-  /* Set a specific height */
-  height: 110%; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-    
+ 
+  .aaron-container{
+    width: 40%;
+    margin: auto;
+  }
+  
 }
