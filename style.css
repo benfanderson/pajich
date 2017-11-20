@@ -20,7 +20,7 @@
   .logo{
     position: absolute;
     top: 1%;
-    right: 3%;
+    right: 2%;
     width: 40%;
   }
 
@@ -30,18 +30,27 @@
 
   .headline-content{
     position: absolute;
-    top: 20%;
-    left: 40%;
-    width: 20%;
+    top: 10%;
+    left: 27%;
+    font-family: Helvetica, Arial, serif;
+    
   }
   
   header h1{
     font-size: 2.5em;
-    font-family: Helvetica, Arial, serif;
+    
+   
+  }
+
+  header p{
+    width: 45%;
+    margin: 0 14%;
+
   }
   
   .byline{
   font-style: italic;
+  font-weight: bold;
   }
 
   p{
@@ -86,6 +95,8 @@
   
     /* Set a specific height */
     height: 50%; 
+
+    
   
     /* Create the parallax scrolling effect */
     background-attachment: scroll;
