@@ -53,6 +53,11 @@
   font-weight: bold;
   }
 
+  .dropcap{
+    font-weight: bold;
+    font-size: 2em;
+  }
+
   p{
     margin: 0 1% 2% 1%;
   }
@@ -199,6 +204,22 @@
 
   p{
     margin: 0 10% 2% 10%;
+  }
+
+  .headline-content{
+    top: 10%;
+    left: 27%;
+    
+  }
+  
+  header h1{
+    font-size: 5em;
+  }
+
+  header p{
+    width: 30%;
+    margin: 0 15%;
+
   }
 
   figcaption{
