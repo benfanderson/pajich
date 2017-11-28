@@ -302,11 +302,17 @@
 
   .bi-container{
     display: flex;
-    width: 60%;
+    width: 100%;
+    flex-wrap: wrap;
     margin: auto;
     justify-content: space-around;
     margin-bottom: 3%;
     
+  }
+
+  #letter{
+    width: auto;
+    margin-bottom: 4%;
   }
 
 
@@ -426,6 +432,10 @@
     background-size: cover;*/
   }
 
+  .bi-container
+  {
+    width: 60%;
+  }
  
   .aaron-container{
     width: 40%;
