@@ -37,6 +37,7 @@
   }
   
   header h1{
+    font-family: 'Merriweather', serif;
     font-size: 2.5em;
     
    
@@ -55,16 +56,19 @@
 
   .dropcap{
     font-weight: bold;
-    font-size: 2em;
+    float       : left;
+  font-size   : 3.26em;
+  line-height : 0.5;
+  margin      : 0.205em 0.05em 0.1em 0;
   }
 
   p{
-    margin: 0 1% 2% 1%;
+    margin: 0 2% 2% 2%;
   }
 
   h2{
     font-size: 1.5em;
-    font-family: Helvetica, Arial, serif;
+    font-family: 'Merriweather', serif;
     margin: 0 .75% 2% .75%;
   }
 
@@ -119,9 +123,6 @@
 
   }
 
-  h2{
-    
-  }
 
 .tri-container{
   /*display: flex;*/
@@ -229,6 +230,10 @@
 
   }
 
+  .dropcap {
+    font-size   : 3.15em;
+  }
+
   figcaption{
     margin-top: 1%;
   }
@@ -310,15 +315,11 @@
     
   }
 
-  #letter{
-    width: auto;
-    margin-bottom: 4%;
-  }
-
-
   /* Rotate letter pic in bi-container*/
 
   #letter{
+    width: auto;
+    margin-bottom: 4%;
     -ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
@@ -376,6 +377,11 @@
     display: block;
   }
 
+  p{
+    font-size: 1.25em;
+    margin: 0 15% 2% 15%;
+  }
+
   .quad-pic{
     height: 50%;
     width: auto;
@@ -393,14 +399,25 @@
    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;*/
-}
+  }
 
-.par-caption{
+  .par-caption{
   
-}
+  }
+
+  h2{
+    font-size: 2.5em;
+    margin: 0 15% 2% 15%;
+  }
+
+  .tri-container
+  {
+    width: 99%;
+  }
+
 
   .tri-pic {
-    height: 65%;
+  height: 65%;
     width: auto;
   }
 
@@ -434,7 +451,7 @@
 
   .bi-container
   {
-    width: 60%;
+    width: 39%;
   }
  
   .aaron-container{
