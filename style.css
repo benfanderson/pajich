@@ -116,11 +116,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 2%;
   }
 
   .par-caption{
-
+    margin-bottom: 2%;
   }
 
 
@@ -153,7 +152,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 2%;
   }
 
   .bi-container{
@@ -183,7 +181,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 2%;
     }
 
 
@@ -249,8 +246,8 @@
   }
 
   .quad-pic{
-    display: inline;
-    height: 20%;
+    display: inline-block;
+    height:20%;
     width: auto;
   }
 
@@ -383,7 +380,7 @@
   }
 
   .quad-pic{
-    height: 50%;
+    height: 45%;
     width: auto;
   }
 
@@ -399,10 +396,6 @@
    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;*/
-  }
-
-  .par-caption{
-  
   }
 
   h2{
