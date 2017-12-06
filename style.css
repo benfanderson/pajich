@@ -76,14 +76,13 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.85em;
     margin-top: 1%;
+    text-align: center;
   }
 
   .quad-container{
-    /*display: flex;
-    flex-wrap: wrap;*/
+   
     width: 100%;
-    /*justify-content: space-around;
-    margin: auto;*/
+   
     margin-bottom: 2%;
   }
 
@@ -124,9 +123,7 @@
 
 
 .tri-container{
-  /*display: flex;*/
   width: 100%;
-  /*flex-wrap: wrap;*/
   align-content: space-around;
   margin-bottom: 2%;
 }
@@ -386,16 +383,12 @@
 
   .parallax { 
     /* The image used */
-   /* background-image: url("images/A_220616genorelia005.JPG");*/
 
     /* Set a specific height */
     height: 110%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-   /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
   }
 
   h2{
@@ -416,30 +409,22 @@
 
   .parallax2 { 
     /* The image used */
-    /*background-image: url("images/A_A_230616genvigil004.JPG");*/
   
     /* Set a specific height */
     height: 110%; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    /*background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
   }
 
   .parallax3 { 
     /* The image used */
-    /*background-image: url("images/031117genpajich144.JPG");*/
   
     /* Set a specific height */
     height: 110%; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    /*background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
   }
 
   .bi-container
