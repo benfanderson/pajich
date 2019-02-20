@@ -199,6 +199,17 @@
   width: 100%;
   height: auto;
 }
+
+footer{
+  /* margin: 0.5em 0.8em; */
+  margin: 0 2% 2% 2%;
+}
+
+footer div {
+  padding: 0.5em 1em;
+  text-align: center;
+  font-family: sans-serif;
+}
  
 /*View for tablets*/
 @media (min-width:479px){
@@ -435,6 +446,14 @@
     width: 40%;
     margin: auto;
     margin-bottom: 2%;
+  }
+
+  footer{
+    width: 70%;
+  }
+
+  footer div {
+      padding: 0.5em 1em;
   }
   
 }
