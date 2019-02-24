@@ -201,7 +201,6 @@
 }
 
 footer{
-  /* margin: 0.5em 0.8em; */
   margin: 0 2% 2% 2%;
 }
 
@@ -346,6 +345,11 @@ footer div {
    margin-bottom: 2%;
   }
 
+  footer{
+    width: 80%;
+    margin: 2% auto;
+  } 
+
 }
 
 
@@ -449,7 +453,7 @@ footer div {
   }
 
   footer{
-    width: 70%;
+    width: 80%;
   }
 
   footer div {
