@@ -1,90 +1,154 @@
 *{
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  .container{
-    width: 100%;
-  }
+.container{
+  width: 100%;
+}
 
-  header{
-    position: relative;
-      padding-bottom: 2%;
-  }
+header{
+  position: relative;
+  padding-bottom: 2%;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+.logo{
+  position: absolute;
+  top: 1%;
+  right: 2%;
+  width: 40%;
+}
+
+#desktop{
+  display: none;
+}
+
+.headline-content{
+  position: absolute;
+  top: 10%;
+  left: 27%;
+  font-family: Helvetica, Arial, serif;
   
-  header img {
-    width: 100%;
-    height: auto;
-  }
+}
 
-  .logo{
-    position: absolute;
-    top: 1%;
-    right: 2%;
-    width: 40%;
-  }
+header h1{
+  font-family: 'Merriweather', serif;
+  font-size: 2.5em;
+}
 
-  #desktop{
-    display: none;
-  }
+header p{
+  width: 45%;
+  margin: 0 14%;
 
-  .headline-content{
-    position: absolute;
-    top: 10%;
-    left: 27%;
-    font-family: Helvetica, Arial, serif;
-    
-  }
+}
   
-  header h1{
-    font-family: 'Merriweather', serif;
-    font-size: 2.5em;
-    
-   
-  }
+.byline{
+font-style: italic;
+font-weight: bold;
+}
 
-  header p{
-    width: 45%;
-    margin: 0 14%;
-
-  }
-  
-  .byline{
-  font-style: italic;
+.dropcap{
   font-weight: bold;
-  }
-
-  .dropcap{
-    font-weight: bold;
-    float       : left;
+  float       : left;
   font-size   : 3.26em;
   line-height : 0.5;
   margin      : 0.205em 0.05em 0.1em 0;
-  }
+}
 
-  p{
-    margin: 0 2% 2% 2%;
-  }
+p{
+  margin: 0 2% 2% 2%;
+}
 
-  h2{
-    font-size: 1.5em;
-    font-family: 'Merriweather', serif;
-    margin: 0 .75% 2% .75%;
-  }
+h2{
+  font-size: 1.5em;
+  font-family: 'Merriweather', serif;
+  margin: 0 .75% 2% .75%;
+}
 
-  figcaption {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.85em;
-    margin-top: 1%;
-    text-align: center;
-  }
+figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85em;
+  margin-top: 1%;
+  text-align: center;
+}
 
-  .quad-container{
-   
-    width: 100%;
-   
-    margin-bottom: 2%;
-  }
+.picBox {
+  width: 95vw;
+  height: 45vh;
+  margin: auto;
+}
+
+.pic{
+  opacity: 0;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: opacity 1s ease;
+  position: relative;
+  height: auto; 
+  width: 90vw; 
+}
+
+.pic.visible{
+  opacity: 1;
+}
+
+#img1{
+  position: relative;
+  top: 2vh;
+  left: 3vw;
+  height: auto;
+  width: 90vw;
+}
+
+#img2{
+  top:-34vh;
+  left: 3vw;
+  -ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Safari 3-8 */
+  transform: rotate(10deg)
+    
+}
+
+#img3{
+  top:-70vh;
+  left: 5vw;
+  -ms-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg); /* Safari 3-8 */
+  transform: rotate(-10deg);
+}
+
+#img4{
+  top:-104.5vh;
+  left: 5vw;
+}
+
+.buttonDiv {
+  position: relative;
+  top: -105vh;
+  width: 15vw;
+  margin: auto;
+}
+
+button {
+  width: 6vw;
+  height: 3vh;
+  font-size: 1em;
+  background-color: gray;
+}
+
+.quad-container{
+  
+  width: 100%;
+  
+  margin-bottom: 2%;
+}
 
   #mobile-only{
     height: auto;
@@ -265,6 +329,34 @@ footer div {
     margin-top: 5%;
   }
 
+  .pic{
+    width: 85vw; 
+  }
+
+  #img1{
+    left: 5.5vw;
+    width: 85vw;
+  }
+
+  #img2{
+    left: 4.5vw;
+    top: -41vh;
+  }
+
+  #img3{
+    left: 5.5vw;
+    top: -86vh;
+  }
+
+  #img4{
+    top: -130vh;
+    left: 6.5vw;
+  }
+
+  .buttonDiv {
+    top: -130vh;
+  }
+
   #TL{
     -ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
@@ -394,6 +486,48 @@ footer div {
     height: 45%;
     width: auto;
   }
+
+  .picBox {
+    width: 45vw;
+    height: 65vh;
+    }
+
+    .pic{
+        height: 53vh;;
+        width: auto;
+    }
+
+    #img1{
+        top:3vh;
+        left: 3vw;
+        height: 53vh;;
+        width: auto;
+    }
+
+    #img2{
+        top:-47vh;
+        left: 3vw;
+        
+    }
+
+    #img3{
+        top:-101vh;
+        left: 4vw;
+    }
+
+    #img4{
+        top:-155vh;
+        left: 3vw;
+    }
+
+    .buttonDiv {
+        top: -152vh;
+        width: 10vw;
+    }
+
+    button {
+        width: 3vw;
+    }
 
   .parallax { 
     /* The image used */
