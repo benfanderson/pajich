@@ -446,33 +446,46 @@ footer div {
   /*View for desktop*/
 @media (min-width:800px){
 
+  header {
+    height: 50em;
+    background-size: 115em;
+    background-position-x: 115em;
+    background-position-y: 89em;
+  }
+  
   .logo{
     width: 20%;
   }
 
-  .headline-content{
+  /* .headline-content{
     top: 10%;
     left: 30%;
-  }
+  } */
 
   header h1{
     font-size: 10em;
   }
 
   header p{
-    width: 40%;
-    margin: 0 9%;
+    width: 25%;
+    /* margin: 0 9%; */
     font-size: 2em;
-
+    top: 30%;
+    left:20%;
   }
 
-  #tablet{
+  .byline{
+    top: 57%;
+    font-size: 2.5em;
+  }
+
+  /* #tablet{
     display: none;
   }
 
   #desktop{
     display: block;
-  }
+  } */
 
   p{
     font-size: 1.25em;
