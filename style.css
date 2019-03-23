@@ -8,48 +8,65 @@
 }
 
 header{
-  position: relative;
-  padding-bottom: 2%;
+  /* position: relative;
+  padding-bottom: 2%; */
+
+  background-image: url(images/pureevil.JPG);
+  background-size: 33em;
+  height: 18em;
+  background-position-x: center;
+  background-position-y: 26em;
+  text-align: center;
+  /* color: white; */
+  margin-bottom: 0.5em;
 }
 
-header img {
+/* header img {
   width: 100%;
   height: auto;
-}
+} */
 
 .logo{
   position: absolute;
-  top: 1%;
-  right: 2%;
+  top: 2%;
+  right: 3%;
   width: 40%;
 }
 
-#desktop{
+/* #desktop{
   display: none;
-}
+} */
 
-.headline-content{
+/* .headline-content{
   position: absolute;
   top: 10%;
   left: 27%;
   font-family: Helvetica, Arial, serif;
   
-}
+} */
 
 header h1{
   font-family: 'Merriweather', serif;
   font-size: 2.5em;
+  position: absolute;
+  top:8%;
+  left: 23%;
 }
 
 header p{
   width: 45%;
   margin: 0 14%;
-
+  position: absolute;
+  top: 17%;
+  left: 13%;
 }
   
 .byline{
-font-style: italic;
-font-weight: bold;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  top:  31.5%;
+  left: 13%;
 }
 
 .dropcap{
