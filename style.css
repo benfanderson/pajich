@@ -143,43 +143,27 @@ button {
   background-color: gray;
 }
 
-.quad-container{
-  
-  width: 100%;
-  
-  margin-bottom: 2%;
+blockquote {
+  font-size: 1.5em;
+  margin: 0 15% 2% 15%;
+  font-style: bold;
 }
 
-  #mobile-only{
-    height: auto;
-    width: 100%;
-  }
-  
-  .quad-pic{
-    display: none;
-  }
+.parallax { 
+  /* The image used */
+  background-image: url("images/A_220616genorelia005.JPG");
 
-  blockquote {
-    font-size: 1.5em;
-    margin: 0 15% 2% 15%;
-    font-style: bold;
-  }
+  /* Set a specific height */
+  height: 50%; 
 
-  .parallax { 
-    /* The image used */
-    background-image: url("images/A_220616genorelia005.JPG");
   
-    /* Set a specific height */
-    height: 50%; 
 
-    
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* Create the parallax scrolling effect */
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
   .par-caption{
     margin-bottom: 2%;
@@ -305,28 +289,8 @@ footer div {
     margin-top: 1%;
   }
 
-
-  .quad-container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    justify-content: space-around;
-    margin: auto;
-    margin-bottom: 4%;
-  }
-
-  .quad-pic{
-    display: inline-block;
-    height:20%;
-    width: auto;
-  }
-
-  #mobile-only{
-    display: none;
-  }
-
-  #quad-caption{
-    margin-top: 5%;
+  .picbox {
+    height: 57vh;
   }
 
   .pic{
@@ -354,7 +318,7 @@ footer div {
   }
 
   .buttonDiv {
-    top: -130vh;
+    top: -129vh;
   }
 
   #TL{
@@ -482,14 +446,9 @@ footer div {
     margin: 0 15% 2% 15%;
   }
 
-  .quad-pic{
-    height: 45%;
-    width: auto;
-  }
-
   .picBox {
     width: 45vw;
-    height: 65vh;
+    height: 67vh;
     }
 
     .pic{
