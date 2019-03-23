@@ -282,20 +282,36 @@ footer div {
     margin: 0 10% 2% 10%;
   }
 
-  .headline-content{
+  header{
+    background-size: 52em;
+    height: 27em;
+    background-position-x: 51em;
+    background-position-y: 42em;
+  }
+
+  /* .headline-content{
     top: 10%;
     left: 27%;
     
-  }
+  } */
   
   header h1{
-    font-size: 5em;
+    top: 6%;
+    left: 28%;
+    font-size: 4.5em;
   }
 
   header p{
     width: 30%;
+    top: 15%;
+    left: 21.5%;
+    font-size: 1.5em;
     margin: 0 15%;
+  }
 
+  .byline{
+    left: 19%;
+    font-size: 1.5em;
   }
 
   .dropcap {
