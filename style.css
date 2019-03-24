@@ -75,8 +75,13 @@ figcaption {
 
 .picBox {
   width: 95vw;
-  height: 45vh;
+  height: 53vh;
   margin: auto;
+}
+
+.picbox figcaption{
+  position: relative;
+  top: -197%;
 }
 
 .pic{
@@ -296,7 +301,13 @@ footer div {
   }
 
   .picbox {
-    height: 57vh;
+    height: 62vh;
+  }
+
+  .picbox figcaption{
+    top: -207%;
+    width:75%;
+    margin: auto;
   }
 
   .pic{
@@ -428,45 +439,49 @@ footer div {
 
   .picBox {
     width: 45vw;
-    height: 67vh;
+    height: 70vh;
     }
 
-    .pic{
-        height: 53vh;;
-        width: auto;
+    .picbox figcaption{
+      top: -215%;
     }
 
-    #img1{
-        top:3vh;
-        left: 3vw;
-        height: 53vh;;
-        width: auto;
-    }
+  .pic{
+    height: 53vh;;
+    width: auto;
+  }
 
-    #img2{
-        top:-47vh;
-        left: 3vw;
-        
-    }
+  #img1{
+    top:3vh;
+    left: 3vw;
+    height: 53vh;;
+    width: auto;
+  }
 
-    #img3{
-        top:-101vh;
-        left: 4vw;
-    }
+  #img2{
+    top:-47vh;
+    left: 3vw;
+  }
 
-    #img4{
-        top:-155vh;
-        left: 3vw;
-    }
+  #img3{
+    top:-101vh;
+    left: 4vw;
+  }
 
-    .buttonDiv {
-        top: -152vh;
-        width: 10vw;
-    }
+  #img4{
+    top:-155vh;
+    left: 3vw;
+  }
 
-    button {
-        width: 3vw;
-    }
+  .buttonDiv {
+    top: -152vh;
+    width: 10vw;
+    padding: 0 1vw;
+  }
+
+  button {
+    width: 4vw;
+  }
 
   .parallax { 
     /* The image used */

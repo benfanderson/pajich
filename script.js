@@ -65,6 +65,5 @@ window.onload = function() {
     // Makes headline, subhead, byline fade away when scrolling
     document.addEventListener("scroll", function(){
     document.querySelector(".headline-content").style.opacity = 1 - document.body.scrollTop / 100;
-    console.log(document.body.scrollTop);
   });
 };
